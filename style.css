@@ -1,0 +1,57 @@
+#navbar {
+    font-family: Helvetica;
+    color: white;
+    font-size: 60px;
+    padding: 5px;
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+    background-color: lightpink;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 90px;
+}
+
+p {
+    font-size: 45px;
+    text-align: center;
+}
+
+.section {
+    font-size:40px;
+    padding: 5px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.anime {
+    width: 300px;
+}
+
+.description {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pages:hover {
+    background-color: pink;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+}
